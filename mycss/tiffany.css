@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #2A2A2A;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+#wallpaper {
+  background-image: url(../images/roundhold.jpg);
+  height: 1000px;
+  width: 100%;
+  background-size: cover;
+}
+
+#wallpaper h1 {
+  font-weight: 100;
+  color: #fff;
+  margin-left: 48%;
+  margin-top: 0;
+  padding-top: 30px;
+}
+
+#wallpaper h2 {
+  padding-top: 830px;
+  padding-bottom: 20px;
+  width: 70%;
+  margin: auto;
+  color: #fff;
+  font-weight: 100;
+  text-align: right;
+}
+
+#wallpaper p {
+  width: 70%;
+  margin: auto;
+  color: #fff;
+  font-weight: 100;
+  padding-bottom: 50px;
+  text-align: right;
+}
+
+/*---- SKILLS SECTION -----*/
+
+#skills {
+  padding-top: 130px;
+  padding-bottom: 50px;
+  width: 80%;
+  margin: auto;
+  clear: both;
+}
+
+#skills h1 {
+  font-weight: 100;
+  color: #fff;
+}
+
+.html {
+  background-color: #fff;
+  height: 35px;
+  width: 650px;
+}
+
+.html h2 {
+  color: #f75656;
+  font-weight: 100;
+  padding-left: 10px;
+  padding-top: 5px;
+  font-size: 25px;
+}
+
+.css {
+  background-color: #fff;
+  height: 35px;
+  width: 600px;
+}
+
+.css h2 {
+  color: #f75656;
+  font-weight: 100;
+  padding-left: 10px;
+  padding-top: 5px;
+  font-size: 25px;
+}
+
+.jquery {
+  background-color: #fff;
+  height: 35px;
+  width: 400px;
+}
+
+.jquery h2 {
+  color: #f75656;
+  font-weight: 100;
+  padding-left: 10px;
+  padding-top: 5px;
+  font-size: 25px;
+}
+
+.webDesign {
+  background-color: #fff;
+  height: 35px;
+  width: 610px;
+}
+
+.webDesign h2 {
+  color: #f75656;
+  font-weight: 100;
+  padding-left: 10px;
+  padding-top: 5px;
+  font-size: 25px;
+}
+
+/*----- BACK -----*/
+
+#back h1 {
+  color: #fff;
+  font-weight: 300;
+  font-size: 25px;
+  padding-left: 20px;
+}
+
+#back a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#back i {
+  color: #f75656;
+}

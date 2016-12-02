@@ -1,0 +1,60 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+#wallpaper {
+  background-image: linear-gradient(rgba(232, 106, 106,0.2), rgba(232, 106, 106, 0.2)), url(../images/geogate.jpeg);
+  background-position: center;
+  background-attachment: fixed;
+  height: 1000px;
+  width: 100;
+  background-size: cover;
+}
+
+#wallpaper h1 {
+  margin: 0;
+  padding-top: 150px;
+  padding-left: 40%;
+  color: #fff;
+}
+
+#wallpaper img {
+  width: 380px;
+  padding-top: 70px;
+  padding-left: 5%;
+  border-radius: 10px;
+}
+
+
+/*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.top {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+.top:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+/*  GRID OF THREE  */
+.span_3_of_3 { width: 100%; }
+.span_2_of_3 { width: 66.13%; }
+.span_1_of_3 { width: 32.26%; }
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+	.top {  margin: 1% 0 1% 0%; }
+	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
+}
